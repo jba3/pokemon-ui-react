@@ -14,6 +14,7 @@ export default function Menu() {
 			<Link to="/moves">Moves</Link>
 			{ ' | ' }
 			<Link to="/items">Items</Link>
+
 			<hr />
 		</div>
 	);

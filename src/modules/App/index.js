@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './layout/header.jsx'
 import Menu from './layout/menu.jsx'
 
 import './App.styl'
@@ -9,6 +10,7 @@ export default function App(props) {
 
 	return (
 		<div>
+			<Header />
 			<Menu />
 			{
 				props.children

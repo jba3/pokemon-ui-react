@@ -11,7 +11,9 @@ module.exports = {
   stats: 'normal',
   devServer:
   {
-    contentBase: Path.resolve(__dirname, 'build'),
+	public: 'www.pokemon.local:3000',
+    // contentBase: Path.resolve(__dirname, 'build'),
+    contentBase: 'assets.pokemon.local',
     hot: true,
     compress: true,
     port: 3000,
